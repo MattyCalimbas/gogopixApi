@@ -1,6 +1,6 @@
 # GOGOPIX API
 
-Simple API for GOGOPIX android mobile application
+Simple javascript API for GOGOPIX android mobile application
 
 ### Prerequisites
 
