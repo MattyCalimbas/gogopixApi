@@ -1,3 +1,4 @@
+//new security modification requires the use of a .env file 9/22/2019
 var Pool = require('pg').Pool
 var pool = new Pool({
   user: process.env.AWS_USER,
@@ -6,7 +7,6 @@ var pool = new Pool({
   password: process.env.AWS_PASS,
   port: 5432,
 })
-//new security modification requires the use of a .env file (09/22/2019)
 
 //modified query below (see: ORDER BY "ID";) 6/26
 var getSubjects = (request, response) => {
