@@ -4,7 +4,7 @@ Simple javascript API for GOGOPIX android mobile application
 
 ### Prerequisites
 
-Node.js, pg, dotenv, body-parser
+Node.js, express, pg, dotenv, body-parser
 
 ### Installing
 
